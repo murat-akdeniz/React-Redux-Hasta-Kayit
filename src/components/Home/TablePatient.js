@@ -9,6 +9,7 @@ const TablePatient = () => {
    const patientTable = patients.map((patient) =>
       <tr>
          <td>{patient.name}</td>
+         <td>{patient.surname}</td>
          <td>{patient.social}</td>
          <td>{`${patient.alanNum}-${patient.num}`}</td>
          <td>'ortam'</td>
@@ -19,7 +20,8 @@ const TablePatient = () => {
       <table className="my-table">
          <thead>
             <tr>
-               <th>Hasta</th>
+               <th>Hasta Adı</th>
+               <th>Hasta Soyad</th>
                <th>Durum</th>
                <th>İletişim</th>
                <th>Ortam</th>
