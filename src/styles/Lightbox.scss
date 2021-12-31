@@ -1,0 +1,66 @@
+
+.customDatePickerWidth>div{
+   width: 225px;   
+}
+.customDatePickerWidth>div>div>div{
+   border-radius: 20px;
+}
+.customUyruk>div>div>div{
+   border-radius: 20px;
+}
+
+.customBorderRadius>div>div{
+   border-radius: 20px;
+
+}
+
+.baslik{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   padding: 1rem;   
+}
+
+.IconPhone{
+   border-radius: 50%;
+   background-color: rgb(243, 243, 243);
+   width: 80px;
+   height: 80px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   
+}
+.myCol{
+   display: flex;
+   flex-flow: row nowrap;
+   justify-content: flex-start;
+   align-items: center;
+}
+.icon_container{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   width: 80px; 
+   height: 80px;  
+}
+.my_container{
+   display: flex;
+   flex-flow: row nowrap;
+   justify-content: flex-start;
+   &>div{
+      margin-right: 2rem;
+   }
+}
+.datePicker>div{
+   width: 250px;
+}
+.datePicker>div>div>div{
+   border-radius: 20px;
+}
+
+.kayit{
+   display: flex;
+   justify-content: flex-end;
+   margin-top: 1rem;
+}
